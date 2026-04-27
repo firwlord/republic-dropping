@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Republic Dropping</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #ffffff;
+        color: #222;
+    }
+
+    /* HEADER */
+    .header {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        background: #ffffff;
+        border-bottom: 1px solid #eee;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    /* SECTION TITLES */
+    .section-title {
+        font-size: 26px;
+        font-weight: bold;
+        margin: 50px 0 20px 0;
+        text-align: center;
+    }
+
+    /* TECH SUPPLIER BANNER */
+    .banner-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .banner {
+        width: 90%;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+
+    /* PRODUCT GRID */
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 25px;
+        padding: 20px 40px;
+    }
+
+    /* PRODUCT CARD */
+    .card {
+        background: #fff;
+        border-radius: 16px;
+        padding: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+        transition: transform 0.2s ease;
+        text-align: center;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        margin: 12px 0 6px 0;
+        font-weight: bold;
+    }
+
+    .card a {
+        display: inline-block;
+        padding: 10px 15px;
+        background: #007bff;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .card a:hover {
+        background: #005fcc;
+    }
+
+    /* FOOTER */
+    .footer {
+        margin-top: 60px;
+        padding: 30px 0;
+        background: #f7f7f7;
+        text-align: center;
+        font-size: 14px;
+        color: #555;
+    }
+
+    .footer-links {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .footer-links a {
+        margin: 0 10px;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">Republic Dropping</div>
+
+<!-- TECH SUPPLIER BANNER -->
+<div class="banner-container">
+    <!-- Replace BANNER_IMAGE_URL with your banner image link -->
+    <img class="banner" src="BANNER_IMAGE_URL" alt="Tech Supplier Banner">
+</div>
+
+<!-- TECH SECTION -->
+<div class="section-title">Tech</div>
+<div class="product-grid">
+
+    <!-- SKYLEO LED Desk Lamp (Amazon) -->
+    <div class="card">
+        <!-- Replace IMAGE_URL with a direct image URL -->
+        <img src="IMAGE_URL_SKYLEO_LAMP" alt="SKYLEO LED Desk Lamp">
+        <div class="card-title">SKYLEO LED Desk Lamp</div>
+        <a href="https://www.amazon.com/SKYLEO-Desk-Lamp-Home-Office/dp/B0DHYTRRLV" target="_blank">View Product</a>
+    </div>
+
+    <!-- Plugable USB-C Cable (Amazon) -->
+    <div class="card">
+        <img src="IMAGE_URL_PLUGABLE_CABLE" alt="Plugable USB-C Cable">
+        <div class="card-title">Plugable USB‑C Cable</div>
+        <a href="https://www.amazon.com/Plugable-10Gbps-USB-IF-Certified-Type-C/dp/B01E4NPPGW" target="_blank">View Product</a>
+    </div>
+
+    <!-- DOITOOL Earbud Case (Amazon) -->
+    <div class="card">
+        <img src="IMAGE_URL_DOITOOL_CASE" alt="DOITOOL Earbud Case">
+        <div class="card-title">Silicone Earbud Case</div>
+        <a href="https://www.amazon.com/DOITOOL-Universal-Organizer-3-93X2-55X0-78In-Protective/dp/B0DPX6HFB8" target="_blank">View Product</a>
+    </div>
+
+    <!-- AliExpress: Mini USB Desk Fan (placeholder) -->
+    <div class="card">
+        <img src="IMAGE_URL_MINI_USB_FAN" alt="Mini USB Desk Fan">
+        <div class="card-title">Mini USB Desk Fan</div>
+        <a href="ALIEXPRESS_LINK_MINI_USB_FAN" target="_blank">View Product</a>
+    </div>
+
+</div>
+
+<!-- CLOTHING SECTION -->
+<div class="section-title">Clothing</div>
+<div class="product-grid">
+
+    <!-- Minimal White Tee (Etsy) -->
+    <div class="card">
+        <img src="IMAGE_URL_MINIMAL_TEE" alt="Minimal White T-Shirt">
+        <div class="card-title">Minimal White T‑Shirt</div>
+        <a href="https://www.etsy.com/listing/4480826034/minimal-white-t-shirt-blank-tee-plain" target="_blank">View Product</a>
+    </div>
+
+    <!-- Oversized Hoodie (Amazon) -->
+    <div class="card">
+        <img src="IMAGE_URL_HOODIE" alt="Oversized Hoodie">
+        <div class="card-title">Oversized Streetwear Hoodie</div>
+        <a href="https://www.amazon.com/SnowElve-Oversized-Pullover-Streetwear-Sweatshirts/dp/B0DB26YLH2" target="_blank">View Product</a>
+    </div>
+
+    <!-- AliExpress: Soft Desk Mat (placeholder) -->
+    <div class="card">
+        <img src="IMAGE_URL_SOFT_DESK_MAT" alt="Soft Desk Mat">
+        <div class="card-title">Soft Desk Mat</div>
+        <a href="ALIEXPRESS_LINK_SOFT_DESK_MAT" target="_blank">View Product</a>
+    </div>
+
+</div>
+
+<!-- ACCESSORIES SECTION -->
+<div class="section-title">Accessories</div>
+<div class="product-grid">
+
+    <!-- FEISEDY Sunglasses (Amazon) -->
+    <div class="card">
+        <img src="IMAGE_URL_SUNGLASSES" alt="FEISEDY Retro Sunglasses">
+        <div class="card-title">Retro Square Sunglasses</div>
+        <a href="https://www.amazon.com/FEISEDY-Vintage-Aviator-Sunglasses-Classic/dp/B0DPCJ3L83" target="_blank">View Product</a>
+    </div>
+
+    <!-- AliExpress: Silicone Cable Organizer (placeholder) -->
+    <div class="card">
+        <img src="IMAGE_URL_CABLE_ORGANIZER" alt="Silicone Cable Organizer">
+        <div class="card-title">Silicone Cable Organizer</div>
+        <a href="ALIEXPRESS_LINK_CABLE_ORGANIZER" target="_blank">View Product</a>
+    </div>
+
+    <!-- AliExpress: Phone Stand Holder (placeholder) -->
+    <div class="card">
+        <img src="IMAGE_URL_PHONE_STAND" alt="Phone Stand Holder">
+        <div class="card-title">Phone Stand Holder</div>
+        <a href="ALIEXPRESS_LINK_PHONE_STAND" target="_blank">View Product</a>
+    </div>
+
+    <!-- AliExpress: LED Keychain Light (placeholder) -->
+    <div class="card">
+        <img src="IMAGE_URL_LED_KEYCHAIN" alt="LED Keychain Light">
+        <div class="card-title">LED Keychain Light</div>
+        <a href="ALIEXPRESS_LINK_LED_KEYCHAIN" target="_blank">View Product</a>
+    </div>
+
+</div>
+
+<!-- HOME / DÉCOR SECTION -->
+<div class="section-title">Home & Décor</div>
+<div class="product-grid">
+
+    <!-- LED Cloud Lamp (Etsy) -->
+    <div class="card">
+        <img src="IMAGE_URL_CLOUD_LAMP" alt="LED Cloud Lamp">
+        <div class="card-title">Multicolor LED Cloud Lamp</div>
+        <a href="https://www.etsy.com/listing/1120567952/11-multicolor-led-cloud-lampmedium-led" target="_blank">View Product</a>
+    </div>
+
+    <!-- Retro Aesthetic Poster (Amazon) -->
+    <div class="card">
+        <img src="IMAGE_URL_RETRO_POSTER" alt="Retro Aesthetic Poster">
+        <div class="card-title">Retro Aesthetic Wall Poster</div>
+        <a href="https://www.amazon.com/Retro-Aesthetic-Posters-Nostalgia-aesthetic/dp/B0B29JTY85" target="_blank">View Product</a>
+    </div>
+
+    <!-- Lavatino Desk Organizer (Amazon) -->
+    <div class="card">
+        <img src="IMAGE_URL_DESK_ORGANIZER" alt="Desk Organizer">
+        <div class="card-title">Desk Organizer</div>
+        <a href="https://www.amazon.com/Lavatino-Desk-Organizer-File-Holder/dp/B0BVVJKGX4" target="_blank">View Product</a>
+    </div>
+
+    <!-- Govee LED Strip Lights (Amazon) -->
+    <div class="card">
+        <img src="IMAGE_URL_GOVEE_STRIP" alt="Govee LED Strip Lights">
+        <div class="card-title">Govee RGBIC LED Strip Lights</div>
+        <a href="https://www.amazon.com/Govee-Control-Segmented-Bluetooth-Changing/dp/B099S9DXT7" target="_blank">View Product</a>
+    </div>
+
+    <!-- AliExpress: Mini Storage Box (placeholder) -->
+    <div class="card">
+        <img src="IMAGE_URL_MINI_STORAGE" alt="Mini Storage Box">
+        <div class="card-title">Mini Storage Box</div>
+        <a href="ALIEXPRESS_LINK_MINI_STORAGE" target="_blank">View Product</a>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="footer-links">
+        <a href="#">Home</a> •
+        <a href="#tech">Tech</a> •
+        <a href="#clothing">Clothing</a> •
+        <a href="#accessories">Accessories</a> •
+        <a href="#home">Décor</a>
+    </div>
+    © 2026 Republic Dropping
+</div>
+
+</body>
+</html>
